@@ -7,8 +7,10 @@ using namespace std;
 char playerOne = 'X';
 
 // Create the tic-tac-toe mesh
+// Use of nested containers
 char mesh[3][3] = { {' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '} };
 
+// Make use of spaces and indexing to produce a makeshift mesh
 void displaymesh() {
     cout << " " << mesh[0][0] << " | " << mesh[0][1] << " | " << mesh[0][2] << endl;
     cout << "-----------" << endl;
